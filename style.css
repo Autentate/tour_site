@@ -268,7 +268,7 @@ header {
 
 .firstblock_main_form div::after {
     content: '';
-    max-width: 9.5px;
+    min-width: 9.5px;
     height: 6px;
     position: absolute;
     top: 50%;
@@ -506,22 +506,22 @@ header {
 .thirdblock section div:nth-child(1) {
     width: 261px;
     height: 337px;
-    background-image: url('/img/thirdblock/RajaAmpat.svg');
+    background-image: url('./img/thirdblock/RajaAmpat.svg');
 }
 .thirdblock section div:nth-child(2) {
     width: 261px;
     height: 337px;
-    background-image: url('/img/thirdblock/Fanjingshan.svg');
+    background-image: url('./img/thirdblock/Fanjingshan.svg');
 }
 .thirdblock section div:nth-child(3) {
     width: 261px;
     height: 337px;
-    background-image: url('/img/thirdblock/Vevey.svg');
+    background-image: url('./img/thirdblock/Vevey.svg');
 }
 .thirdblock section div:nth-child(4) {
     width: 261px;
     height: 337px;
-    background-image: url('/img/thirdblock/Skadar.svg');
+    background-image: url('./img/thirdblock/Skadar.svg');
 }
 
 @media (max-width: 1200px) {
